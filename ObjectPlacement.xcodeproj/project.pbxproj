@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		327FB4A02B4F35F300E35D2B /* Box.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 327FB49C2B4F35F300E35D2B /* Box.usdz */; };
-		327FB4A12B4F35F300E35D2B /* Cube.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 327FB49D2B4F35F300E35D2B /* Cube.usdz */; };
-		327FB4A22B4F35F300E35D2B /* Cone.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 327FB49E2B4F35F300E35D2B /* Cone.usdz */; };
-		327FB4A32B4F35F300E35D2B /* Cylinder.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 327FB49F2B4F35F300E35D2B /* Cylinder.usdz */; };
 		393E4AAC2A9625E3005C9691 /* PlacementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393E4AAB2A9625E3005C9691 /* PlacementManager.swift */; };
 		393E4AB02A9629A7005C9691 /* GeometryUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393E4AAF2A9629A7005C9691 /* GeometryUtilities.swift */; };
 		394D18CF2A960EB9009E3A2E /* ObjectPlacementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394D18CE2A960EB9009E3A2E /* ObjectPlacementApp.swift */; };
@@ -20,6 +16,11 @@
 		39818AD62AD9960900C5C0FA /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39818AD52AD9960900C5C0FA /* PersistenceManager.swift */; };
 		399EF6C82AE0054000EDF4C4 /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399EF6C72AE0054000EDF4C4 /* DeleteButton.swift */; };
 		39BFB61D2AE9404A007A7EFE /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BFB61C2AE9404A007A7EFE /* DragState.swift */; };
+		6991FBF62B86C1B6000CEE1A /* echizen-seikogani.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6991FBF52B86C1B6000CEE1A /* echizen-seikogani.usdz */; };
+		6991FBF82B86C71F000CEE1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6991FBF72B86C71F000CEE1A /* Assets.xcassets */; };
+		69D401322B86E13200F60C81 /* tojinbo-mini.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 69D401312B86E13200F60C81 /* tojinbo-mini.usdz */; };
+		69D401362B86E8BF00F60C81 /* icecream.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 69D401352B86E8BF00F60C81 /* icecream.usdz */; };
+		69D401392B86EB3200F60C81 /* sabayaki.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 69D401382B86EB3200F60C81 /* sabayaki.usdz */; };
 		EB501F592AE288A8005214CE /* PlaneProjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB501F582AE288A8005214CE /* PlaneProjector.swift */; };
 		EB5034152AF137FA0020B48F /* InfoLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5034142AF137FA0020B48F /* InfoLabel.swift */; };
 		EBA142DF2AD431AD00FB20AD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA142DE2AD431AD00FB20AD /* HomeView.swift */; };
@@ -33,10 +34,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		327FB49C2B4F35F300E35D2B /* Box.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Box.usdz; sourceTree = "<group>"; };
-		327FB49D2B4F35F300E35D2B /* Cube.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Cube.usdz; sourceTree = "<group>"; };
-		327FB49E2B4F35F300E35D2B /* Cone.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Cone.usdz; sourceTree = "<group>"; };
-		327FB49F2B4F35F300E35D2B /* Cylinder.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Cylinder.usdz; sourceTree = "<group>"; };
 		393E4AAB2A9625E3005C9691 /* PlacementManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacementManager.swift; sourceTree = "<group>"; };
 		393E4AAD2A96284F005C9691 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		393E4AAF2A9629A7005C9691 /* GeometryUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryUtilities.swift; sourceTree = "<group>"; };
@@ -48,9 +45,14 @@
 		39818AD52AD9960900C5C0FA /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
 		399EF6C72AE0054000EDF4C4 /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
 		39BFB61C2AE9404A007A7EFE /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
-		A30182D16871D86E05AF05A9 /* SampleCode.xcconfig */ = {isa = PBXFileReference; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		A45DF7DFFC4D11715B00A4A8 /* README.md */ = {isa = PBXFileReference; name = README.md; path = README.md; sourceTree = "<group>"; };
-		C138A54FD285DC0E83F51A16 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE.txt; sourceTree = "<group>"; };
+		6991FBF52B86C1B6000CEE1A /* echizen-seikogani.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "echizen-seikogani.usdz"; sourceTree = "<group>"; };
+		6991FBF72B86C71F000CEE1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		69D401312B86E13200F60C81 /* tojinbo-mini.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "tojinbo-mini.usdz"; sourceTree = "<group>"; };
+		69D401352B86E8BF00F60C81 /* icecream.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = icecream.usdz; sourceTree = "<group>"; };
+		69D401382B86EB3200F60C81 /* sabayaki.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sabayaki.usdz; sourceTree = "<group>"; };
+		A30182D16871D86E05AF05A9 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+		A45DF7DFFC4D11715B00A4A8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C138A54FD285DC0E83F51A16 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		EB501F582AE288A8005214CE /* PlaneProjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneProjector.swift; sourceTree = "<group>"; };
 		EB5034142AF137FA0020B48F /* InfoLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoLabel.swift; sourceTree = "<group>"; };
 		EBA142DE2AD431AD00FB20AD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		394D18C92A960EB9009E3A2E /* ObjectPlacement */ = {
 			isa = PBXGroup;
 			children = (
+				6991FBF72B86C71F000CEE1A /* Assets.xcassets */,
 				394D18CE2A960EB9009E3A2E /* ObjectPlacementApp.swift */,
 				EBDA9DAD2AD44E270040C78E /* Views */,
 				EBF0DF0E2AEFFDB900ABF63C /* App */,
@@ -117,10 +120,10 @@
 		394EC2532ABC8677007A0706 /* 3D Models */ = {
 			isa = PBXGroup;
 			children = (
-				327FB49C2B4F35F300E35D2B /* Box.usdz */,
-				327FB49E2B4F35F300E35D2B /* Cone.usdz */,
-				327FB49D2B4F35F300E35D2B /* Cube.usdz */,
-				327FB49F2B4F35F300E35D2B /* Cylinder.usdz */,
+				6991FBF52B86C1B6000CEE1A /* echizen-seikogani.usdz */,
+				69D401382B86EB3200F60C81 /* sabayaki.usdz */,
+				69D401352B86E8BF00F60C81 /* icecream.usdz */,
+				69D401312B86E13200F60C81 /* tojinbo-mini.usdz */,
 			);
 			path = "3D Models";
 			sourceTree = "<group>";
@@ -232,10 +235,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327FB4A12B4F35F300E35D2B /* Cube.usdz in Resources */,
-				327FB4A22B4F35F300E35D2B /* Cone.usdz in Resources */,
-				327FB4A02B4F35F300E35D2B /* Box.usdz in Resources */,
-				327FB4A32B4F35F300E35D2B /* Cylinder.usdz in Resources */,
+				6991FBF62B86C1B6000CEE1A /* echizen-seikogani.usdz in Resources */,
+				69D401322B86E13200F60C81 /* tojinbo-mini.usdz in Resources */,
+				69D401362B86E8BF00F60C81 /* icecream.usdz in Resources */,
+				6991FBF82B86C71F000CEE1A /* Assets.xcassets in Resources */,
+				69D401392B86EB3200F60C81 /* sabayaki.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,7 +406,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = A2TF2C92PA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ObjectPlacement/Info.plist;
@@ -412,7 +416,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.ObjectPlacement${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fukuno.apple-samplecode.ObjectPlacement--SAMPLE-CODE-DISAMBIGUATOR-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = xros;
@@ -434,7 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = A2TF2C92PA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ObjectPlacement/Info.plist;
@@ -444,7 +448,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.apple-samplecode.ObjectPlacement${SAMPLE_CODE_DISAMBIGUATOR}";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fukuno.apple-samplecode.ObjectPlacement--SAMPLE-CODE-DISAMBIGUATOR-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = xros;
