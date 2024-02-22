@@ -19,13 +19,13 @@ struct PlacementTooltip: View {
     var message: String? {
         // Decide on a message to display, in order of importance.
         if !placementState.planeToProjectOnFound {
-            return "Point the device at a horizontal surface nearby."
+            return "平面の上を見てください"
         }
         if placementState.collisionDetected {
-            return "The space is occupied."
+            return "オブジェクトが重なっています"
         }
         if !placementState.userPlacedAnObject {
-            return "Tap to place objects."
+            return "タップしてオブジェクトを置く"
         }
         return nil
     }

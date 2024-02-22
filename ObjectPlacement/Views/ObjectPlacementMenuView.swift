@@ -25,11 +25,15 @@ struct ObjectPlacementMenuView: View {
                 }
             }
 
-            Button("Remove all objects", systemImage: "trash") {
-                presentConfirmationDialog = true
+            Button("すべてのオブジェクトを消す", systemImage: "trash") {
+                Task {
+                    await appState.placementManager?.removeAllPlacedObjects()
+                }
+                //presentConfirmationDialog = true
             }
             .font(.subheadline)
             .buttonStyle(.borderless)
+            /*
             .confirmationDialog("Remove all objects?", isPresented: $presentConfirmationDialog) {
                 Button("Remove all", role: .destructive) {
                     Task {
@@ -37,8 +41,9 @@ struct ObjectPlacementMenuView: View {
                     }
                 }
             }
+            */
 
-            Button("Leave", systemImage: "xmark.circle") {
+            Button("終了", systemImage: "xmark.circle") {
                 Task {
                     await dismissImmersiveSpace()
                     appState.didLeaveImmersiveSpace()

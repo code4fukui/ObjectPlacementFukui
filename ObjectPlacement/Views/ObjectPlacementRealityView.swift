@@ -72,7 +72,7 @@ struct ObjectPlacementRealityView: View {
                 PlacementTooltip(placementState: placementManager.placementState)
             }
             Attachment(id: Attachments.dragTooltip) {
-                TooltipView(text: "Drag to reposition.")
+                TooltipView(text: "ドラッグで移動")
             }
             Attachment(id: Attachments.deleteButton) {
                 DeleteButton {

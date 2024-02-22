@@ -25,7 +25,7 @@ struct ObjectSelectionView: View {
     
     var body: some View {
         VStack(spacing: 20) {
-            Text("Choose an object to place:")
+            Text("置くオブジェクトを選んでください")
                 .padding(10)
 
             Grid {

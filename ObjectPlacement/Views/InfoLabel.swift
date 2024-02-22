@@ -22,7 +22,7 @@ struct InfoLabel: View {
         } else if !appState.allRequiredAuthorizationsAreGranted {
             return "This app is missing necessary authorizations. You can change this in Settings > Privacy & Security."
         } else {
-            return "Place and move 3D models in your physical environment. The system maintains their placement across app launches."
+            return "眼の前の平面上にオブジェクトが置けます"
         }
     }
 }

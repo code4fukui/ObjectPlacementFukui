@@ -20,7 +20,7 @@ struct HomeView: View {
     var body: some View {
         VStack {
             VStack(spacing: 20) {
-                Text("Object Placement")
+                Text("空間オブジェクト")
                     .font(.title)
 
                 InfoLabel(appState: appState)
@@ -31,12 +31,12 @@ struct HomeView: View {
                 Group {
                     if !modelLoader.didFinishLoading {
                         VStack(spacing: 10) {
-                            Text("Loading models…")
+                            Text("オブジェクト読込中…")
                             ProgressView(value: modelLoader.progress)
                                 .frame(maxWidth: 200)
                         }
                     } else if !appState.immersiveSpaceOpened {
-                        Button("Enter") {
+                        Button("開始") {
                             Task {
                                 switch await openImmersiveSpace(id: immersiveSpaceIdentifier) {
                                 case .opened:
