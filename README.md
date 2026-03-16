@@ -2,15 +2,22 @@
 
 > 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
 
-Forked "[Object Placement Example](https://developer.apple.com/documentation/visionos/tracking-points-in-world-space)"
+> English README is here: [README.md](README.md)
 
-Retrieve the position and orientation of anchors your app stores in ARKit, and detect horizontal surfaces like tables and floors.
+Forked from the "[Object Placement Example](https://developer.apple.com/documentation/visionos/tracking-points-in-world-space)" sample.
 
-To learn more about the features that this sample implements, see [Tracking specific points in world space](https://developer.apple.com/documentation/visionos/tracking-points-in-world-space) and [Placing content on detected planes](https://developer.apple.com/documentation/visionos/placing-content-on-detected-planes).
+Retrieve the position and orientation of anchors your app stores in ARKit, and detect horizontal surfaces like tables and floors. Place 3D objects on these detected planes.
 
-> Features in this sample that rely on ARKit only run on Apple Vision Pro, not in Simulator.
+To learn more, see [Tracking specific points in world space](https://developer.apple.com/documentation/visionos/tracking-points-in-world-space) and [Placing content on detected planes](https://developer.apple.com/documentation/visionos/placing-content-on-detected-planes).
 
-## 3D model
+> Features that rely on ARKit only run on Apple Vision Pro, not in Simulator.
 
+## 3D Models
+
+The sample includes the following 3D models:
 - [xrgourment](https://github.com/code4fukui/xrgourmet)
 - [vr-tojinbo](https://github.com/code4fukui/vr-tojinbo/)
+
+## License
+
+MIT License — see [LICENSE](LICENSE).
